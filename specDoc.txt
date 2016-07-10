@@ -1,0 +1,27 @@
+As a user
+I want an account 
+So that I can have personalized info
+
+As a user
+I want an account 
+So that I can retain my selections
+
+As a user
+I want a private account
+So that my info is not manipulated egregiously. 
+
+As a user
+I want there to be selectable players
+So that I can pick my roster.
+
+As a user 
+I want to have a custom roster.
+So that I have players to compete with
+
+As a user
+I want to compete with other users
+So that my game has meaning.
+
+As a user 
+I want to have each players history
+So that I can make informed choices

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Player Creation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <h1>Player Creation</h1>
+        <form name="player">
+            <div class="textbox">
+                <input type="text"
+                        required
+                        name="player-name" />
+                <label>Player Name</label>
+            </div>
+            
+            <div>
+                <input type="number">
+                <label>Age</label>
+            </div>
+        
+            <select id="team"  name="team">
+                <option value="Lions">Lions</option>
+                <option value="Boars">Boars</option>
+                <option value="Smelters">Smelters</option>
+                <option value="Founders">Founders</option>
+                <option value="Crocs">Crocs</option>
+                <option value="Penguins">Penguins</option>
+            </select>
+            
+            <select id="position" name="position">
+                <option value="Quarterback">Quarterback</option>
+                <option value="Halfback">Halfback</option>
+                <option value="Fullback">Fullback</option>
+                <option value="TightEnd">Tight End</option>
+                <option value="WideReciver">Wide Reciever</option>
+                <option value="OffensiveLine">Offensive Lineman</option>
+            </select>
+            
+            <button>Submit</button>
+        </form>
+        
+        <div>
+            <ul class="player-list"></ul>
+        </div>
+        
+    </main>
+    <script   
+     src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.13.1/lodash.min.js">
+    </script>
+    <script src="app.js"></script>
+</body>
+
+</html>

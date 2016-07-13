@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/craigclemons/FantasyFootball/issues"
   },
-  "homepage": "https://github.com/craigclemons/FantasyFootball#readme"
+  "homepage": "https://github.com/craigclemons/FantasyFootball#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "lodash": "^4.13.1",
+    "morgan": "^1.7.0"
+  }
 }

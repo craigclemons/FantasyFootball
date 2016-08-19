@@ -36,7 +36,7 @@ playerRouter.route('/')
 
 
 playerRouter.route('/:id')
-    .get(function(req, res){
+   .get(function(req, res){
     var player = req.foundId;
     res.json(player || {});
 })
@@ -54,5 +54,11 @@ playerRouter.route('/:id')
         var updatePlayer = _.assign(players(player), update);
         res.json(updatePlayer);
     }
-});
+})
+    .delete(function(req, res){
+        var player = _findIndex(players, {id: req.params.id});
+        players.splice(player,1)
+        
+        res.json(req.player);
+    });
 module.exports = playerRouter;

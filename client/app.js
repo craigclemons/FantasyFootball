@@ -24,7 +24,7 @@ var getValues = function(){
     };
 };
 
-var playerTemplate = '<h3><%= name %>' + '<h3><%= team %></h3>' + 'age: <%= age %>' + '<% position %>';
+var playerTemplate = '<h3><%= name %>' + '<h3><%= team %></h3>' + 'age: <%= age %>' + '<%= position %>';
 var players = [];
 var makeTemplate = function(data){
     var li = document.createElement('li');

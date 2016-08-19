@@ -17,14 +17,8 @@ app.use('/users', userRouter);
 
 app.use(function(err, req, res, next){
    if (err) {
-       console.log(err.message);
        res.status(500).send(err);
    } 
 });
 
-var port = 3001;
-
-app.listen(port,function(){
-    console.log('listening on http://', port);
-    
-});
+module.exports = app;
